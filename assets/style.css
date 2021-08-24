@@ -1,9 +1,11 @@
+/* Universal Style */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Sets the background colour for the page */
 body {
     background-color: #d9dcd6;
 }
@@ -38,15 +40,18 @@ header div {
     font-size: 20px;
 }
 
+/* Removes bullets from list */
 header div ul {
     list-style-type: none;
 }
 
+/* Sets the list to display in a horizontal line */
 header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Removes underline from the link and turns font color white */
 a {
     color: #ffffff;
     text-decoration: none;
@@ -67,10 +72,12 @@ footer h2 {
     font-size: 20px;
 }
 
+/* Changes only the letters 'seo' in the word to this color */
 .seo {
     color: #d9dcd6;
 }
 
+/* Styles how the main image will sit */
 .hero {
     height: 800px;
     width: 100%;
@@ -80,6 +87,7 @@ footer h2 {
     background-position: center;
 }
 
+/* Styling for the main content */
 .services {
     width: 75%;
     display: inline-block;
@@ -95,11 +103,13 @@ footer h2 {
     background-color: #0072bb;
 }
 
+/* Floats content to the left of the box */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* Floats content to the right of the box */
 .float-right {
     float: right;
     margin-left: 25px;
@@ -109,6 +119,7 @@ footer h2 {
     max-height: 200px;
 }
 
+/* Styling for the aside panel */
 .benefits {
     margin-right: 20px;
     padding: 20px;
