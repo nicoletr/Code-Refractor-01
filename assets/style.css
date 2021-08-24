@@ -68,7 +68,7 @@ p {
     margin-left: 25px;
 }
 
-.content {
+.services {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
@@ -87,7 +87,7 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-body {
+.benefits-content {
     margin-bottom: 32px;
     color: #ffffff;
 }
@@ -97,20 +97,20 @@ h3 {
     text-align: center;
 }
 
-.benefit-body img {
+.benefits-content img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.content-body {
+.services-content {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
     background-color: #0072bb;
 }
 
-.content-body img {
+.services-content img {
     max-height: 200px;
 }
 
